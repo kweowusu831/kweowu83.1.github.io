@@ -1,0 +1,241 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e6e6fa, #f0fff0, #ffebcd, #f5f5dc, #ffe4e1);
+    color: #333;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+header {
+    background: linear-gradient(to right, #8b4513, #d2b48c);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background: #8b4513;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #d2b48c;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#pioneers {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#pioneers .pioneer {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+#pioneers .pioneer img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#pioneers .pioneer h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#pioneers .pioneer p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+table.greatest-rappers {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+table.greatest-rappers th, table.greatest-rappers td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table.greatest-rappers th {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+
+table.greatest-rappers td {
+    font-size: 1.1em;
+}
+
+table.greatest-rappers img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+table.greatest-rappers h3 {
+    font-size: 1.3em;
+    margin: 8px 0;
+}
+
+table.greatest-rappers p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+table.greatest-rappers .nasty-nas td {
+    background-color: #f0fff0;
+}
+
+table.greatest-rappers .pac td {
+    background-color: #ffebcd;
+}
+
+table.greatest-rappers .cole-world td {
+    background-color: #f5f5dc;
+}
+
+table.greatest-rappers .kenny td {
+    background-color: #ffe4e1;
+}
+
+table.greatest-rappers .ye td {
+    background-color: #f5f5f5;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#intro ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro ul li {
+    background-color: #9fa2b6b1;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+#intro ul li:hover {
+    background-color: #e6e6fa;
+    transform: scale(1.02);
+}
+
+#intro ul li a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #8b4513;
+    text-decoration: none;
+}
+
+#intro ul li a:hover {
+    color: #4b0082;
+}
+
+.conclusion {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.next-page-link {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 12px 20px;
+    background-color: #8b4513;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.next-page-link:hover {
+    background-color: #d2b48c;}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #e6e6fa, #ffe4e1);
+    color: #333;
+    margin-top: 30px;
+    font-size: 16px;
+    border-top: 2px solid #ddd;
+}
